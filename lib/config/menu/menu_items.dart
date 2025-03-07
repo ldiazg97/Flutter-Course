@@ -39,4 +39,10 @@ const appMenuItems = <MenuItems>[
     link: '/snackbars',
     icon: Icons.info_outline,
   ),
+  MenuItems(
+    title: 'Animaciones',
+    subTitle: 'Animaciones en Flutter',
+    link: '/animations',
+    icon: Icons.animation,
+  ),
 ];
