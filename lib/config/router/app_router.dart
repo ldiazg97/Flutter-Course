@@ -11,5 +11,9 @@ final appRouter = GoRouter(
       path: '/buttoms',
       builder: (context, state) => const ButtomsScrenn(),
     ),
+    GoRoute(
+      path: '/progress',
+      builder: (context, state) => const ProgressScreen(),
+    ),
   ],
 );
